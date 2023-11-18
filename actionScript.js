@@ -177,13 +177,14 @@ meals.addEventListener("click", getMealById);
 // Single Meal Close Btn To go at Home 
 
 const goToHome = () => {
-    Location.reload();
+    location.reload();
     // location.href = "/";
 }
 
 // Add To Fav Function 
 
 let favouriteMeals = [];
+
 const addToFav = async (mealId) => {
 
     // Try to fetch All favourite Meals By Meal Id 
@@ -217,6 +218,7 @@ const addToFav = async (mealId) => {
         } else {
             console.log("else");
         }
+        goToHome()
     } catch (error) {
         console.log(error);
     }
