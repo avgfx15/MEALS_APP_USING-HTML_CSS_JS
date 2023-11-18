@@ -177,8 +177,8 @@ meals.addEventListener("click", getMealById);
 // Single Meal Close Btn To go at Home 
 
 const goToHome = () => {
-
-    location.href = "/";
+    Location.reload();
+    // location.href = "/";
 }
 
 // Add To Fav Function 
