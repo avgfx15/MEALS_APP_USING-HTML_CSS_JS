@@ -1,0 +1,37 @@
+After reading problem Statement Start working on the Project as follows:
+
+Readign and Understanding the Project Need
+
+Then After start creating first HTML Structure with BG Image, Heading and Search form with button and Random button also favourite button
+
+Link Google Fonts Link, Font Awasome Link and Custom CSS stylesheet 
+
+After Styling with flexbox for good apperiances for All Meals and Favourite Meals Both Same and Single Meal Display with different Styling
+
+Start Working with Javascript create and Link javascript file
+
+First declare all Variables and Element for make change in HTML part when need
+
+First work on Search Meal by Name with Fetch api from "themealdb.com"
+
+Create submit addEventListener Function to search and Display Meals
+
+Set require Condition for that
+
+After work on RandomButton with Fetch api from "themealdb.com"
+
+On fetching data Meal ingredients and Measurement both are different so to connect each other Create addMealToDom function 
+
+Random Meal display with same styling added in SingleMeal 
+
+Also create addEventListener Function for meals  and onclick function for Favourite meals and SIngle meals
+
+On Single meal or random meal create functionality for close and add to favourite list
+
+CreateGit repo for complete Project and push code on github
+
+Create gitpage for Project 
+
+
+
+

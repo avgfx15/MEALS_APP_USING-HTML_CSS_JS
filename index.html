@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Styling  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awasome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <title>Meal App</title>
+</head>
+
+<body>
+    <!-- Main Container  -->
+    <div class="container">
+        <!-- BGImage  -->
+        <div class="bgImage"></div>
+        <div class="content">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a onclick="myFavMealList()">Favourite</a></li>
+                </ul>
+            </nav>
+            <!-- Heading   -->
+            <h1 class="heading">Meal App </h1>
+            <!-- Search Form  -->
+            <div class="searchForm">
+                <form action="" method="get" id="submit">
+                    <input type="text" id="search" placeholder="Search Meal" class="searchInput">
+                    <button class="searchBtn btn" type="submit"><i
+                            class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <!-- Random Button and My Favourite Button  -->
+                <div>
+                    <button class="randomBtn btn" id="randomBtn"><i class="fa-solid fa-shuffle"></i></button>
+                    <button class="myFavBtn btn" id="myFavBtn" onclick="myFavMealList()"><i
+                            class="fa-solid fa-heart"></i></button>
+                </div>
+            </div>
+            <!-- Result Message Div  -->
+            <div id="result"></div>
+            <!-- All Meals List  -->
+            <div id="meals" class="meals"></div>
+            <!-- SIngle Meal Div  -->
+            <div id="singleMeal"></div>
+        </div>
+    </div>
+    <script src="actionScript.js"></script>
+</body>
+
+</html>
