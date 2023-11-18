@@ -177,8 +177,8 @@ meals.addEventListener("click", getMealById);
 // Single Meal Close Btn To go at Home 
 
 const goToHome = () => {
-    location.reload();
-    // location.href = "/";
+    // location.reload();
+    location.href = "/";
 }
 
 // Add To Fav Function 
@@ -218,7 +218,7 @@ const addToFav = async (mealId) => {
         } else {
             console.log("else");
         }
-        goToHome()
+
     } catch (error) {
         console.log(error);
     }
