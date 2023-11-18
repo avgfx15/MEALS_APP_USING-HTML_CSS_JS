@@ -160,7 +160,7 @@ const addMealToDom = (singleMealInfo) => {
                                                        
                       </div>
                       <div class="actionBtn">
-                                <button type="button" class="addBtn btn">Add</button>
+                                
                                 <button type="button" class="addToFav btn" id="addTOFavBtn" onclick = "addToFav(${singleMealInfo.idMeal})">Add To Favourite</button>
                                 <button type="button" class="close btn" id="closeBtn" onclick="goToHome()">Close</button>
                       </div>
