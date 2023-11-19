@@ -178,7 +178,7 @@ meals.addEventListener("click", getMealById);
 
 const goToHome = () => {
     // location.reload();
-    location.href = "/";
+    location.href = "https://avgfx15.github.io/MEALS_APP_USING-HTML_CSS_JS/";
 }
 
 // Add To Fav Function 
